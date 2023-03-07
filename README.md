@@ -1,3 +1,4 @@
+![howfm-weblogo_whitespace](https://user-images.githubusercontent.com/1236319/223405355-843c6a6a-a7dc-440e-bcc4-604a63adfd05.svg)
 
 ## Getting Started
 
