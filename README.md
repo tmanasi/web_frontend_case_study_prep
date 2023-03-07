@@ -3,41 +3,46 @@
 # Preparation Project for the how.fm coding challenge
 This project will help you to prepare your development environment for the actual how.fm coding challenge. This saves you precious time since the coding challenge is time limited.
 
-- Correct Node version and global dependencies like yarn
-- Running yarn will cache
-- Get familiar with the npm scripts using yarn
+## Getting Started
+
+1. Checkout the `main` branch
+2. Get your NodeJS version right
+3. Run `yarn install`
+
+## More details
+
+- Have correct NodeJS version – `.nvmrc` file is available
+- [Install yarn](https://classic.yarnpkg.com/lang/en/docs/install) – we provide a `yarn.lock` 
+- Running `yarn install` – this should cache the necessary dependencies
+- Get familiar with the npm scripts below using yarn
 - Get familiar with [Storybooks](https://storybook.js.org/)
 - Get familiar with [Material UI](https://mui.com/). 
   - During the case study, we are using [MUI v4](https://v4.mui.com/).
   - And specifically: [Grid](https://v4.mui.com/components/grid/), [Styles](https://v4.mui.com/styles/api/#makestyles-styles-options-hook), [Select](https://v4.mui.com/components/selects/#select), [Dialog](https://v4.mui.com/components/dialogs/#dialog) 
 
-## What will the actual coding challenge be about?
-- You will receive access to your personal private GitHub repository that will contain the details about the task. Please, review the your emails for more details about the process.
+## What the actual coding challenge will be about
+For the actual coding challenge you will receive access to a private GitHub repository created in our organisation only for you. The coding challenge is designed for 90 minutes. You will find the detailed task in the README, an open pull request and open issues. 
+For more details about the process review the email you received from how.fm.
+
+#### Following tasks will be part of the challenge
 
 - Update the visual design of a DropDown Component
 - Enhance the functionality of the DropDown Component 
 - Align the look of two other relevant Components
 - Fix a “state” bug and others which are clearly identified
-- Fix two warnings.
-- There will be a task for React Hooks. 
-- Bonus: Ideas on how to improve the code. 
+- Fix two warnings
+- There will be a task about React Hooks
 
 
 ## Applying for a role at how.fm
-If you have not applied yet and you are interested...
+If you have found this page and not yet applied for a position at how.fm please visit https://join.com/companies/howfm to see if there are currently open positions that interest you.
 
-## Getting Started
-
-1. Checkout the main branch
-2. Run `yarn install`
-3. Make sure you run the correct Node version
+# PROJECT REFERENCE
+Below you will find the scripts available in this project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 And enhanced with [Storybook](https://storybook.js.org/).
-
-# Reference
-Below you will find the scripts available in this project.
 
 ## Storybook scripts
 
