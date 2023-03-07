@@ -1,10 +1,43 @@
 ![howfm-weblogo_whitespace](https://user-images.githubusercontent.com/1236319/223405355-843c6a6a-a7dc-440e-bcc4-604a63adfd05.svg)
 
+# Preparation Project for the how.fm coding challenge
+This project will help you to prepare your development environment for the actual how.fm coding challenge. This saves you precious time since the coding challenge is time limited.
+
+- Correct Node version and global dependencies like yarn
+- Running yarn will cache
+- Get familiar with the npm scripts using yarn
+- Get familiar with [Storybooks](https://storybook.js.org/)
+- Get familiar with [Material UI](https://mui.com/). 
+  - During the case study, we are using [MUI v4](https://v4.mui.com/).
+  - And specifically: [Grid](https://v4.mui.com/components/grid/), [Styles](https://v4.mui.com/styles/api/#makestyles-styles-options-hook), [Select](https://v4.mui.com/components/selects/#select), [Dialog](https://v4.mui.com/components/dialogs/#dialog) 
+
+## What will the actual coding challenge be about?
+- You will receive access to your personal private GitHub repository that will contain the details about the task. Please, review the your emails for more details about the process.
+
+- Update the visual design of a DropDown Component
+- Enhance the functionality of the DropDown Component 
+- Align the look of two other relevant Components
+- Fix a “state” bug and others which are clearly identified
+- Fix two warnings.
+- There will be a task for React Hooks. 
+- Bonus: Ideas on how to improve the code. 
+
+
+## Applying for a role at how.fm
+If you have not applied yet and you are interested...
+
 ## Getting Started
+
+1. Checkout the main branch
+2. Run `yarn install`
+3. Make sure you run the correct Node version
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 And enhanced with [Storybook](https://storybook.js.org/).
+
+# Reference
+Below you will find the scripts available in this project.
 
 ## Storybook scripts
 
