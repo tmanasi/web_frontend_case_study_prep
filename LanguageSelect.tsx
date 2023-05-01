@@ -24,7 +24,11 @@ const LanguageSelect = ({ value = "en", onChange }: LanguageSelectProps) => {
 
   const setlang: any=(event:any)=>{
     const code = event.target.value;
-   console.log('e',event.target.value)
+    const cuu=LANGUAGES.filter((i:any)=>i.code===code)
+    const val={
+      name:cuu[0].name,
+      id:code
+    }
    setlangCode(code)
   }
   return (
@@ -33,7 +37,7 @@ const LanguageSelect = ({ value = "en", onChange }: LanguageSelectProps) => {
       <Select
         value={langCode??value}
         onChange={(event: any)=>{
-          setlangCode(event)
+          setlang(event)
         }}
         inputProps={{
           name: "language",

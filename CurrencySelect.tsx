@@ -8,23 +8,33 @@ import Select from "@material-ui/core/Select";
 import { ChangeEvent, ReactNode, useState } from "react";
 
 interface CurrencySelectProps {
-  value?: string;
+  value?: any;
   onChange?: (event: ChangeEvent<HTMLSelectElement>, child: ReactNode) => void;
 }
 
-const CurrencySelect = ({ value = "USD", onChange }: CurrencySelectProps) => {
-  const [currencyCode,setCurrencyCode]=useState();
+const CurrencySelect = ({ 
+  value = {
+  name: "US Dollar",
+  id: "USD"
+}, onChange }: CurrencySelectProps) => {
+  const [currencyCode,setCurrencyCode]=useState(value);
 
   const setCurrency: any=(event:any)=>{
     const code = event.target.value;
-   console.log('e',event.target.value)
-   setCurrencyCode(code)
+    const cuu=CurrencyData.filter((i:any)=>i.code===code)
+    const val={
+      name:cuu.currency,
+      id:code
+    }
+    setCurrencyCode(val??value)
+   
+  
   }
   return (
     <FormControl fullWidth>
       <InputLabel htmlFor="currency-simple">Currency</InputLabel>
       <Select
-        value={setCurrency??value}
+        value={currencyCode? currencyCode.name:value.name}
         onChange={(event:any)=>{
           setCurrency(event);
           
